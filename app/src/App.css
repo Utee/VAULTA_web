@@ -1,0 +1,99 @@
+/* VAULTA App Styles */
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: auto;
+}
+
+/* Selection color */
+::selection {
+  background-color: rgba(47, 142, 146, 0.3);
+  color: #F4F6F8;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0D10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(47, 142, 146, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(47, 142, 146, 0.7);
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid rgba(47, 142, 146, 0.6);
+  outline-offset: 2px;
+}
+
+/* Button reset */
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* Image optimization */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent text selection on interactive elements */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Hardware acceleration for animations */
+.will-change-transform {
+  will-change: transform;
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .float-animation,
+  .pulse-animation {
+    animation: none !important;
+  }
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .section-pinned {
+    min-height: 100svh;
+  }
+  
+  .grain-overlay {
+    opacity: 0.04;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .text-vaulta-muted {
+    color: #8A9199;
+  }
+}
