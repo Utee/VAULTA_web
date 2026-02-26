@@ -158,7 +158,7 @@ const HeroSection: React.FC = () => {
             opacity: 0
           }}
         >
-          VAULTA is an offline-first digital identity wallet designed for real life.
+          {/* VAULTA is an offline-first digital identity wallet designed for real life. */}
         </p>
 
         {/* CTA Button */}

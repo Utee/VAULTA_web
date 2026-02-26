@@ -172,7 +172,7 @@ const SolutionSection: React.FC = () => {
             opacity: 0
           }}
         >
-          Store IDs, certificates, and contacts—fully encrypted on your device.
+          {/* Store IDs, certificates, and contacts—fully encrypted on your device. */}
         </p>
 
         {/* CTA Button */}

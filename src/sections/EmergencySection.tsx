@@ -199,7 +199,7 @@ const EmergencySection: React.FC = () => {
             opacity: 0
           }}
         >
-          First responders can see essential info—even when your phone is locked.
+          {/* First responders can see essential info—even when your phone is locked. */}
         </p>
 
         {/* CTA Button */}

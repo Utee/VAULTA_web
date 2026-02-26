@@ -128,10 +128,11 @@ const CTASection: React.FC = () => {
           <p className="text-white/50 text-sm">
             For partnerships:{' '}
             <a 
-              href="mailto:partnerships@vaulta.io" 
+              href="mailto:vaulta@cieltech.org" 
               className="text-vaulta-teal hover:underline"
             >
-              partnerships@vaulta.io
+              {/* partnerships@vaulta.io */}
+              vaulta@cieltech.org
             </a>
           </p>
         </div>
@@ -142,7 +143,7 @@ const CTASection: React.FC = () => {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="font-sora font-bold text-white text-lg">VAULTA</p>
           <p className="text-white/50 text-sm">
-            © 2025 VAULTA. All rights reserved.
+            © 2025 VAULTA | A CielTech Project. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-white/50 text-sm hover:text-white transition-colors">Privacy</a>

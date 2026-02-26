@@ -172,7 +172,7 @@ const ProblemSection: React.FC = () => {
             opacity: 0
           }}
         >
-          Millions lose access to jobs, healthcare, and housing because identity is too fragile.
+          {/* Millions lose access to jobs, healthcare, and housing because identity is too fragile. */}
         </p>
 
         {/* CTA Button */}

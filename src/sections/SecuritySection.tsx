@@ -199,7 +199,7 @@ const SecuritySection: React.FC = () => {
             opacity: 0
           }}
         >
-          PIN + fingerprint or face unlock. Your data never leaves your device unencrypted.
+          {/* PIN + fingerprint or face unlock. Your data never leaves your device unencrypted. */}
         </p>
 
         {/* CTA Button */}

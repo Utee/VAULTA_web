@@ -203,7 +203,7 @@ const ShareSection: React.FC = () => {
             opacity: 0
           }}
         >
-          QR codes and one-time access codes. You choose what to share—and for how long.
+          {/* QR codes and one-time access codes. You choose what to share—and for how long. */}
         </p>
 
         {/* CTA Button */}

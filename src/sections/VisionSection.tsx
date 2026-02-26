@@ -199,7 +199,7 @@ const VisionSection: React.FC = () => {
             opacity: 0
           }}
         >
-          From Nigeria to the continent—secure identity that respects privacy and works anywhere.
+          {/* From Nigeria to the continent—secure identity that respects privacy and works anywhere. */}
         </p>
 
         {/* CTA Button */}
